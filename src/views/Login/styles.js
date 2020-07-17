@@ -9,16 +9,19 @@ export default styled.main`
   height: 400px;
   justify-content: space-around;
   align-items: center;
+
   div {
     height: 100%;
     margin: 0 auto;
     margin-top: 30px;
+
     form {
       display: flex;
       flex-direction: column;
       height: 100%;
     }
   }
+
   .error {
     position: absolute;
     display: ${props => (props.error ? 'block' : 'none')};
@@ -28,6 +31,7 @@ export default styled.main`
     margin: 15px auto;
     margin-bottom: 13px;
   }
+
   .trapezoid {
     margin: 0 auto;
     margin-top: 0px;
@@ -37,6 +41,7 @@ export default styled.main`
     height: 0;
     width: 112px;
   }
+
   .span {
     position: absolute;
     top: 400px;
@@ -47,8 +52,10 @@ export default styled.main`
     border-right: 10px solid transparent;
     margin-left: -15px;
   }
+
   @media (max-width: 411px) {
     width: 400px;
+
     .span {
       width: 386px;
     }

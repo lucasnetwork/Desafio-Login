@@ -5,19 +5,21 @@ export const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+
   *{
     margin: 0;
     padding: 0;
     font-family:'Montserrat', Helvetica, sans-serif;
     box-sizing: border-box;
   }
+
   html{
     height:100vh;
-   body, #root{
-     height:100%;
-    background: linear-gradient(180deg, #1F1F1F 0%, #222222 100%), #1F1F1F;
-  }
 
+    body, #root{
+      height:100%;
+      background: linear-gradient(180deg, #1F1F1F 0%, #222222 100%), #1F1F1F;
+    }
   }
 
   h1{
