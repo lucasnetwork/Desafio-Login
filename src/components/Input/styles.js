@@ -6,9 +6,12 @@ export default styled.input`
   border: none;
   border: 1px solid #868686;
   outline: none;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 800;
-  padding: 25px;
+  padding: 25px 0 24px 24px;
   color: #868686;
+
   margin-bottom: 37px;
   background: none;
   text-transform: uppercase;

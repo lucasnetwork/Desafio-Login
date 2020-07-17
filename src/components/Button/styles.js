@@ -3,15 +3,17 @@ import styled from 'styled-components';
 export default styled.button`
   position: relative;
   display: block;
-  max-width: 348px;
+  width: 348px;
   height: 71px;
   border: 1px solid #fff;
   background: none;
   font-weight: 800;
-  font-size: 27px;
+  font-size: 22px;
   color: #fff;
+  line-height: 27px;
   outline: none;
   overflow: hidden;
+  margin-bottom: 48px;
   z-index: 2;
   transition: all 1s ease;
   cursor: pointer;
@@ -22,13 +24,13 @@ export default styled.button`
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(-25%, -40%) rotate(10deg);
+    transform: translate(-25%, -40%) rotate(30deg);
     z-index: -1;
     transition: width 0.4s ease;
   }
   :hover::before {
-    width: 110%;
-    height: 240%;
+    width: 100%;
+    height: 1000%;
   }
 
   a {
