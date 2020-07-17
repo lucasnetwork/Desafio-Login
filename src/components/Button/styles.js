@@ -5,7 +5,6 @@ export default styled.button`
   display: block;
   width: 348px;
   height: 71px;
-  margin-bottom: 48px;
   border: 1px solid #fff;
   outline: none;
   overflow: hidden;

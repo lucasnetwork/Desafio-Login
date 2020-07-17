@@ -23,7 +23,6 @@ export default styled.main`
   }
 
   .error {
-    position: absolute;
     display: ${props => (props.error ? 'block' : 'none')};
     font-weight: 600;
     font-size: 16px;
